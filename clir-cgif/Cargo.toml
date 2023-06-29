@@ -1,8 +1,13 @@
 [package]
 name = "clir-cgif"
+description = "Provides the reading and writing of the ISO/IEC Conceptual Graph Interchange Format (CGIF)."
 version = "0.1.0"
+authors = ["Simon Johnston <johnstonskj@gmail.com>"]
+repository = "https://github.com/johnstonskj/rust-clir.git"
+license = "MIT"
+readme = "README.md"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+publish = true
 
 [dependencies]
+clir-core = { version = "0.1", path = "../clir-core" }
