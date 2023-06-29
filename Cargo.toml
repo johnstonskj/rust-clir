@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+        "clir-core",
+        "clir-clif",
+        "clir-cgif",
+]
